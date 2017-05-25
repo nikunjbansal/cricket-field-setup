@@ -25,14 +25,14 @@ else
 	}
 	if(isset($_GET['key']))
 	{
-		$key = $_GET['key'];
+		$playerKey = $_GET['key'];
 		//echo $field_string;
 	}
 	else
 	{
-		$key = rand(0,count($arr));
+		$playerKey = 0;
 	}
-	$field_string = $arr1[$key];
+	$field_string = $arr1[$playerKey];
 	$fielders = explode(",",$field_string);
 }
 ?>
@@ -79,7 +79,12 @@ else
 		<div id='playermenu'>
 			<ul>
 				<?php foreach($arr as $key=>$val){ $name = explode("-",$key); ?>
-			   <li><?php echo '<a href="?key='.$name[0].'">'?><span><?php echo $name[1];?></span></a></li>
+			   	<li <?php echo 'id='.$name[0]?> 
+			   		<?php echo ($playerKey == $name[0]) ? 'class=curPlayer' : '' ?>
+		   		>
+				   	<?php echo '<a href="?key='.$name[0].'">'?>
+				   	<span><?php echo $name[1];?></span></a>
+		   		</li>
 			   <?php } ?>
 			</ul>
 		</div>

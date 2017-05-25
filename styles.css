@@ -446,3 +446,9 @@
    right:10px;
    top:5px;
 }
+
+.curPlayer > a {
+	background: #2580a2 url("images/hover.gif") left center no-repeat !important;
+  	color: #fff !important;
+  	padding-bottom: 8px !important;
+}

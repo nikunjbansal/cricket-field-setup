@@ -72,9 +72,7 @@ else
 		<div id="background">
 			<form action='fielders.php'> 
 			<div id="Backgroundcopy"><img src="images/Backgroundcopy.png"></div>
-			<div id="squareleg" class="fpos" style="<?php if(in_array("squareleg",$fielders)) echo "display:none;"?>"><img src="images/squareleg.png">
-				<input type="text" name="squareleg">
-			</div>
+			<div id="squareleg" class="fpos" style="<?php if(in_array("squareleg",$fielders)) echo "display:none;"?>">
 			<div id="shortbwsquareleg" class="fpos"><img src="images/shortbwsquareleg.png"></div>
 			<div id="shortfineleg" class="fpos"><img src="images/shortfineleg.png"></div>
 			<div id="legslip" class="fpos"><img src="images/legslip.png"></div>
