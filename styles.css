@@ -1,0 +1,448 @@
+  body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 618px;
+	 height: 673px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Backgroundcopy 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 618px;
+	 height: 673px;
+	 z-index:1;
+} 
+
+ #squareleg 
+{ 
+	 left: 438px; 
+	 top: 273px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 27px;
+	 z-index:2;
+} 
+
+ #shortbwsquareleg 
+{ 
+	 left: 403px; 
+	 top: 208px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 36px;
+	 z-index:3;
+} 
+
+ #shortfineleg 
+{ 
+	 left: 359px; 
+	 top: 175px; 
+	 position: absolute; 
+	 width: 63px;
+	 height: 26px;
+	 z-index:4;
+} 
+
+ #legslip 
+{ 
+	 left: 339px; 
+	 top: 246px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 26px;
+	 z-index:5;
+} 
+
+ #shortleg 
+{ 
+	 left: 336px; 
+	 top: 299px; 
+	 position: absolute; 
+	 width: 58px;
+	 height: 28px;
+	 z-index:6;
+} 
+
+ #sillymidon 
+{ 
+	 left: 329px; 
+	 top: 341px; 
+	 position: absolute; 
+	 width: 52px;
+	 height: 28px;
+	 z-index:7;
+} 
+
+ #midwicket 
+{ 
+	 left: 427px; 
+	 top: 326px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 25px;
+	 z-index:8;
+} 
+
+ #midon 
+{ 
+	 left: 353px; 
+	 top: 420px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 30px;
+	 z-index:9;
+} 
+
+ #slipcordon 
+{ 
+	 left: 223px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 94px;
+	 height: 51px;
+	 z-index:10;
+} 
+
+ #fourthslip 
+{ 
+	 left: 191px; 
+	 top: 250px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 26px;
+	 z-index:11;
+} 
+
+ #gully 
+{ 
+	 left: 208px; 
+	 top: 266px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 18px;
+	 z-index:12;
+} 
+
+ #sillypoint 
+{ 
+	 left: 248px; 
+	 top: 280px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 22px;
+	 z-index:13;
+} 
+
+ #sillymidoff 
+{ 
+	 left: 243px; 
+	 top: 307px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 27px;
+	 z-index:14;
+} 
+
+ #shortmidoff 
+{ 
+	 left: 219px; 
+	 top: 372px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 29px;
+	 z-index:15;
+} 
+
+ #midoff 
+{ 
+	 left: 224px; 
+	 top: 420px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 27px;
+	 z-index:16;
+} 
+
+ #extracover 
+{ 
+	 left: 143px; 
+	 top: 398px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 29px;
+	 z-index:17;
+} 
+
+ #cover 
+{ 
+	 left: 169px; 
+	 top: 339px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 32px;
+	 z-index:18;
+} 
+
+ #coverpoint 
+{ 
+	 left: 160px; 
+	 top: 311px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 28px;
+	 z-index:19;
+} 
+
+ #point 
+{ 
+	 left: 142px; 
+	 top: 276px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 29px;
+	 z-index:20;
+} 
+
+ #flyslip 
+{ 
+	 left: 190px; 
+	 top: 174px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 27px;
+	 z-index:21;
+} 
+
+ #sweeper 
+{ 
+	 left: 0px; 
+	 top: 277px; 
+	 position: absolute; 
+	 width: 41px;
+	 height: 29px;
+	 z-index:22;
+} 
+
+ #deepcover 
+{ 
+	 left: 0px; 
+	 top: 376px; 
+	 position: absolute; 
+	 width: 50px;
+	 height: 30px;
+	 z-index:23;
+} 
+
+ #deepextracover 
+{ 
+	 left: 34px; 
+	 top: 504px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 33px;
+	 z-index:24;
+} 
+
+ #longoff 
+{ 
+	 left: 160px; 
+	 top: 604px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 27px;
+	 z-index:25;
+} 
+
+ #longon 
+{ 
+	 left: 417px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 29px;
+	 z-index:26;
+} 
+
+ #cowcorner 
+{ 
+	 left: 533px; 
+	 top: 481px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 36px;
+	 z-index:27;
+} 
+
+ #deepmidwicket 
+{ 
+	 left: 555px; 
+	 top: 366px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 37px;
+	 z-index:28;
+} 
+
+ #deepsquareleg 
+{ 
+	 left: 556px; 
+	 top: 269px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 37px;
+	 z-index:29;
+} 
+
+ #deepbackwardsquarele 
+{ 
+	 left: 526px; 
+	 top: 161px; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 40px;
+	 z-index:30;
+} 
+
+ #longleg 
+{ 
+	 left: 482px; 
+	 top: 83px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 29px;
+	 z-index:31;
+} 
+
+ #fineleg 
+{ 
+	 left: 402px; 
+	 top: 31px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 30px;
+	 z-index:32;
+} 
+
+ #longstop 
+{ 
+	 left: 284px; 
+	 top: 7px; 
+	 position: absolute; 
+	 width: 46px;
+	 height: 28px;
+	 z-index:33;
+} 
+
+ #thirdman 
+{ 
+	 left: 104px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 31px;
+	 z-index:34;
+} 
+
+ #backwardpoint 
+{ 
+	 left: 87px; 
+	 top: 193px; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 31px;
+	 z-index:35;
+}
+.highlighted
+{
+	border: 1px solid tomato;
+}
+.selected
+{
+	border: 2.3px solid green;	
+}
+#cssmenu {
+  background: #333;
+  list-style: none;
+  margin-right: -175px;
+  padding: 0;
+  float:left;
+  width:300px;
+  height:670px;
+}
+#cssmenu li {
+  font: 150% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height:100px;
+}
+#cssmenu a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+  
+}
+#cssmenu a:hover {
+  background: #2580a2 url("images/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+#playermenu {
+  background: #333;
+  list-style: none;
+  margin-left: -175px;
+  padding: 0;
+  float:right;
+  width:300px;
+  height:670px;
+}
+#playermenu li {
+  font: 150% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height:100px;
+}
+#playermenu a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+  
+}
+#playermenu a:hover {
+  background: #2580a2 url("images/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+#header {
+    background: none repeat scroll 0 0 #f2f2f2;
+    height: 70px;
+    width: 1400px;
+}
+.logoutLblPos{
+
+   position:fixed;
+   right:10px;
+   top:5px;
+}
